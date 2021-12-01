@@ -19,11 +19,3 @@ function toggleTheme() {
 
 let toggleBttnVariable = document.querySelector('[id^="toggleButton"]');
 toggleBttnVariable.onclick = toggleTheme;
-
-// $(window).scroll(function() {
-//     if ($(this).scrollTop()) {
-//         $('#directionBlock:hidden').stop(true, true).fadeIn();
-//     } else {
-//         $('#directionBlock').stop(true, true).fadeOut();
-//     }
-// });
